@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("../Images/pic_boat_portrait.jpg") center center/cover;
+}
+
+header {
+  background-color: #9e9e9e;
+  padding: 18px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  color: #000;
+}
+
+header h2 {
+  color: #757575;
+  font-size: 60px;
+  font-weight: 400;
+  text-shadow: 1px 1px #757575;
+}
+
+.car-container,
+.envelope-container {
+  float: left;
+  margin-bottom: 20px;
+}
+
+main {
+  margin: 30px auto 0;
+  width: 90%;
+}
+
+/* For car image */
+.nice-car {
+  position: relative;
+}
+
+.nice-car p {
+  color: #000;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  font-size: 30px;
+}
+
+.car-container {
+  width: 66%;
+  box-shadow: 5px 5px 5px #bfbfbf;
+  margin-right: 20px;
+}
+
+/* for envelope */
+.envelope-container {
+  width: 32%;
+}
+
+.envelope {
+  box-shadow: 1px 2px 3px 4px #aaaaaa;
+}
+
+.envelope2 {
+  margin-bottom: 18px;
+}
+
+.fa-plus {
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.line-one {
+  width: 100%;
+}
+
+.gray-color {
+  background-color: #cbcbcb;
+  position: relative;
+}
+
+.gray-color p {
+  padding: 35px;
+  text-align: center;
+}
+
+.white-color {
+  background-color: #ffffff;
+}
+
+.white-color p {
+  padding: 20px;
+  text-align: center;
+}
+
+.two-hour {
+  text-align: center;
+}
+
+.three-hour {
+  text-align: center;
+  background-color: #d0d0d0;
+}
+
+.fa-envelope {
+  font-size: 32px;
+  /* color: white; */
+}
+
+.recordplayer {
+  clear: both;
+  margin: 20px 0;
+}
+
+.snow {
+  /* box-shadow: 5px 5px 5px #BFBFBF; */
+  margin: 20px 0;
+}
+
+.possible {
+  margin-bottom: 35px;
+}
+
+.black-possible {
+  background-color: #000000;
+  padding: 55px 0;
+  padding-left: 10px;
+}
+
+.black-possible h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.white-bg p {
+  padding: 12px;
+}
+
+footer p {
+  padding: 18px;
+  background-color: #fff;
+}
